@@ -10,6 +10,8 @@ For short - what is a "Cheap Yellow Display" ? This device was introduced s
 
 I'm using the Domino style images provided by **judge2005** in the GitHub repository **https://github.com/judge2005/EleksTubeIPS**. You will find the originals in the path "more_faces | dom2". The original images are BMP encoded images with a size of 135 x 240 pixels, but this is far to much for our display, as I want to display the current time and date with 6 digits each. The second issue would be: how do I load the images into the sketch (SD-Card, LittleFS). I decided to use the "inline" style by converting the files in C-style header files.
 
+![Image 2](./images/esp32_clock_faces_domino.png)
+
 For both the image size reducing and converting I used an internet service: https://mischianti.org/rgb-image-to-byte-array-converter-for-arduino-tft-displays/
 
 Simply open each of the ten digit BMP files, set the new image size (here 50 x 88 pixels), convert the file and download it as *h file.
