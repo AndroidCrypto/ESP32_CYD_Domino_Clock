@@ -12,7 +12,7 @@ I'm using the Domino style images provided by **judge2005** in the GitHub reposi
 
 For both the image size reducing and converting I used an internet service: https://mischianti.org/rgb-image-to-byte-array-converter-for-arduino-tft-displays/
 
-Simply open each of the ten digit BMP files, set the new image size (here 55 x 88 pixels), convert the file and download it as *h file.
+Simply open each of the ten digit BMP files, set the new image size (here 50 x 88 pixels), convert the file and download it as *h file.
 
 The are the default settings I used:
 
@@ -20,7 +20,7 @@ The are the default settings I used:
 Settings (default):
 Code format Hex 0x00
 Palette mod 16bit RRRRRGGGGGGBBBBB (2byte/pixel)
-Resize: use both parameters to match exact size, e.g. 55 x 88
+Resize: use both parameters to match exact size, e.g. 50 x 88
 Multi line yes
 Endianness Little Endian
 static yes
